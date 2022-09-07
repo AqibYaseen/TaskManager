@@ -1,0 +1,4 @@
+.container{
+    @apply text-[1.5rem] w-[90vw] border-2 flex justify-between items-center mt-5 px-10 py-8 shadow-lg border-t-0
+}
+

@@ -1,0 +1,7 @@
+.tasks-container {
+    @apply mt-3 w-[85vw] rounded-sm 
+}
+.task-container{
+    @apply text-[1.5rem] my-2 py-3 pt-3 w-full h-full mt-5 border-b-2 shadow-xl flex justify-between items-center pl-2
+}
+

@@ -1,0 +1,11 @@
+<div 
+    class="container" [ngStyle]="{'border-color': task.reminder? 'red':'yellowgreen'}">
+    <i>
+        <mat-icon
+        class=""
+        (click) = "delItem(task)"
+        >close</mat-icon>
+    </i>
+    <h3>{{task.name}}</h3>
+    <span>{{task.time}}</span>
+</div>

@@ -1,0 +1,30 @@
+<form class="form focus:border-green-600" (ngSubmit)="submit()">
+    <div>
+        <label for="name">Task : </label>
+        <textarea
+            [(ngModel)]="name"
+            type="text" 
+            placeholder="Enter Task description" 
+            name="name" 
+            id="name"
+            cols="25"
+            rows="5"
+            ></textarea><br>
+    </div>
+    <div>
+        <label for="time">Date | Time : </label>
+        <input type="text" [(ngModel)]="time" name="time" id="time">
+    </div>
+    <div>    
+        <label for="reminder">Important : </label>
+        
+        <mat-checkbox 
+            [(ngModel)]="reminder"
+            type="checkbox" 
+            name="reminder" 
+            id="reminder">
+        </mat-checkbox>
+        </div>
+    
+    <button class="px-5 py-2 rounded-full text-lg  bg-green-500" type="submit">Add Task!</button>
+</form>

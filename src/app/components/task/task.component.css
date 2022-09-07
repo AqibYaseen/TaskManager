@@ -1,0 +1,12 @@
+.container {
+    @apply text-lg p-2 border-l-[6px] border-double pl-4 min-w-[85vw] pr-5
+}
+h3{
+    @apply text-left min-w-full
+}
+i{
+    @apply  w-10 h-10 ml-3 float-right flex items-center justify-center rounded-full border-2
+}
+span{
+    @apply text-sm
+}
